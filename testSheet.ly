@@ -5,44 +5,58 @@
       {
         \clef "treble"
         \time 4/4
-b' d' d' b' b' 
-          b' c' b' b' 
-          b' d' a' b' 
-          b' f' b' b' 
-          a' a' b' b' 
-          c' a' c' b' 
-          b' b' f' b' 
+b' b' b' b' c' 
+          b' b' b' f' 
+          c' a' d' b' 
+          b' e' d' e' 
+          b' b' b' b' 
+          d' b' b' g' 
+          b' b' b' b' 
+          b' b' f' a' 
           d' b' b' b' 
-          b' a' b' b' 
-          b' b' b' a' 
-          f' b' b' c' 
-          g' b' b' b' 
-          b' g' f' g' 
-          g' b' b' b' 
-          d' b' b' d' 
-          b' b' d'     }
+          d' g' c' b' 
+          b' a' d' b' 
+          b' b' g' d' 
+          b' g' b' c' 
+          b' b' b' b' 
+          d' b' b' b' 
+          b' b' b'     }
     \new Staff
       {
         \clef "bass"
         \time 4/4
           <g b d>
-          <d f a>
-          <e g b>
-          <d f a>
+          <f a c>
           <g b d>
-          <d f a>
           <e g b>
-          <d f a>
           <g b d>
-          <d f a>
-          <e g b>
-          <d f a>
+          <f a c>
           <g b d>
-          <d f a>
           <e g b>
-          <d f a>
+          <g b d>
+          <f a c>
+          <g b d>
           <e g b>
-          <b d f>
+          <g b d>
+          <f a c>
+          <g b d>
+          <e g b>
+          <c e g>
+          <e g b>
+          <c e g>
+          <g b d>
+          <c e g>
+          <e g b>
+          <c e g>
+          <g b d>
+          <c e g>
+          <e g b>
+          <c e g>
+          <g b d>
+          <c e g>
+          <e g b>
+          <c e g>
+          <g b d>
           <c e g>
           <a c e>
           <e g b>
@@ -58,35 +72,21 @@ b' d' d' b' b'
           <c e g>
           <a c e>
           <e g b>
-          <g b d>
-          <f a c>
-          <b d f>
-          <e g b>
-          <g b d>
-          <f a c>
-          <b d f>
-          <e g b>
-          <g b d>
-          <f a c>
-          <b d f>
-          <e g b>
-          <g b d>
-          <f a c>
           <b d f>
           <d f a>
-          <f a c>
+          <a c e>
           <e g b>
           <f a c>
           <d f a>
-          <f a c>
+          <a c e>
           <e g b>
           <f a c>
           <d f a>
-          <f a c>
+          <a c e>
           <e g b>
           <f a c>
           <d f a>
-          <f a c>
+          <a c e>
           <e g b>
           <f a c>
     } >>

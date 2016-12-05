@@ -1,4 +1,3 @@
-
 import sys
 
 sys.path.append('C:\Python27\Lib\site-packages')
@@ -129,8 +128,9 @@ def detect(request):
                     note2 = (chord[2][1].name).lower()
                     note3 = (chord[2][2].name).lower()
                     if chord == None:
-                        lilypitchu += r4
-                    else:
+			pass
+                       # lilypitchu += r4
+		    else:
                         lilypitchu += "<" + note1[:1].lower()
                         lilypitchu += " " + note2[:1].lower()
                         lilypitchu += " " + note3[:1].lower() + ">"
@@ -138,6 +138,4 @@ def detect(request):
 
             w.write("    } >>\n")  # staff closing brackets
             w.write("}")  # closing brackets
-        data.update({"success": True})
-    return JsonResponse(data)
-
+        data.update({"success": True})    return JsonResponse(data)
